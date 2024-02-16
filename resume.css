@@ -1,15 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Sackers Gothic', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center; /* Center align all text */
 }
 
 header {
     background-color: #007BFF;
     color: #fff;
-    text-align: center;
     padding: 1em;
 }
 
@@ -30,10 +30,15 @@ section {
     padding: 20px;
 }
 
-img {
-    max-width: 100%;
+.profile-picture img {
+    max-width: 200px; /* Adjust the max-width as needed */
     height: auto;
     border-radius: 50%;
+}
+
+.intro p {
+    font-size: 18px; /* Adjust the font size */
+    line-height: 1.5; /* Adjust the line height */
 }
 
 table {
@@ -48,10 +53,28 @@ table, th, td {
 
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center; /* Center align table cells */
 }
 
 th {
     background-color: #333;
     color: #fff;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px; /* Adjust the font size */
+    margin-bottom: 10px; /* Add space between each skill */
+}
+
+ul li::before {
+    content: "\2022"; /* Add bullet point character before each skill */
+    color: #007BFF; /* Change bullet point color */
+    display: inline-block;
+    width: 1em; /* Adjust spacing between bullet point and text */
+    margin-left: -1em; /* Adjust spacing between bullet point and text */
 }
