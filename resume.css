@@ -1,80 +1,50 @@
 body {
-    font-family: 'Sackers Gothic', Arial, sans-serif;
+    font-family: monospace;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center; /* Center align all text */
 }
 
 header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 1em;
-}
-
-nav {
     background-color: #333;
     color: #fff;
-    padding: 0.5em;
-    text-align: center;
+    padding: 10px 0;
 }
 
-nav a {
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
 }
 
-section {
+main {
     padding: 20px;
-}
-
-.profile-picture img {
-    max-width: 200px; /* Adjust the max-width as needed */
-    height: auto;
-    border-radius: 50%;
-}
-
-.intro p {
-    font-size: 18px; /* Adjust the font size */
-    line-height: 1.5; /* Adjust the line height */
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
 }
 
 table, th, td {
     border: 1px solid #ddd;
+    padding: 8px;
 }
 
-th, td {
-    padding: 10px;
-    text-align: center; /* Center align table cells */
+table th {
+    background-color: #f2f2f2;
 }
 
-th {
-    background-color: #333;
-    color: #fff;
-}
-
-ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-}
-
-ul li {
-    font-size: 18px; /* Adjust the font size */
-    margin-bottom: 10px; /* Add space between each skill */
-}
-
-ul li::before {
-    content: "\2022"; /* Add bullet point character before each skill */
-    color: #007BFF; /* Change bullet point color */
-    display: inline-block;
-    width: 1em; /* Adjust spacing between bullet point and text */
-    margin-left: -1em; /* Adjust spacing between bullet point and text */
+img {
+    max-width: 100%;
+    height: auto;
 }
