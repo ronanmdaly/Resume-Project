@@ -99,3 +99,20 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.about-bg {
+    background-image: url('about-background.jpg'); /* Replace 'about-background.jpg' with your desired image for the about page */
+}
+
+.education-bg {
+    background-image: url('education-background.jpg'); /* Replace 'education-background.jpg' with your desired image for the education page */
+}
+
+.experience-bg {
+    background-image: url('experience-background.jpg'); /* Replace 'experience-background.jpg' with your desired image for the experience page */
+}
+
+.skills-bg {
+    background-image: url('skills-background.jpg'); /* Replace 'skills-background.jpg' with your desired image for the skills page */
+}
+
