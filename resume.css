@@ -9,8 +9,9 @@ body {
     background-position: center;
 }
 
-nav {
+nav item {
     background-color: #90EE90;
+    text-align: center; 
 }
 
 .fakeimg {
