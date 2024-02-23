@@ -101,18 +101,18 @@ a:hover {
 }
 
 .about-bg {
-    background-image: url('about-background.jpg'); /* Replace 'about-background.jpg' with your desired image for the about page */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c6/Marsh_Butte_and_Geikie_Peak%2C_Grand_Canyon.jpg'); /* Replace 'about-background.jpg' with your desired image for the about page */
 }
 
 .education-bg {
-    background-image: url('education-background.jpg'); /* Replace 'education-background.jpg' with your desired image for the education page */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c6/Marsh_Butte_and_Geikie_Peak%2C_Grand_Canyon.jpg'); /* Replace 'education-background.jpg' with your desired image for the education page */
 }
 
 .experience-bg {
-    background-image: url('experience-background.jpg'); /* Replace 'experience-background.jpg' with your desired image for the experience page */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c6/Marsh_Butte_and_Geikie_Peak%2C_Grand_Canyon.jpg'); /* Replace 'experience-background.jpg' with your desired image for the experience page */
 }
 
 .skills-bg {
-    background-image: url('skills-background.jpg'); /* Replace 'skills-background.jpg' with your desired image for the skills page */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c6/Marsh_Butte_and_Geikie_Peak%2C_Grand_Canyon.jpgg'); /* Replace 'skills-background.jpg' with your desired image for the skills page */
 }
 
