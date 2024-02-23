@@ -12,13 +12,10 @@ body {
 nav {
     background-color: #90EE90;
 }
+
 .fakeimg {
     height: 200px;
     background: #aaa;
-}
-
-nav-item{
-    color: #aaa;
 }
 
 main {
