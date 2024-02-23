@@ -10,6 +10,10 @@ body {
     background-position: center;
 }
 
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
