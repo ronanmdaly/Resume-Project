@@ -21,6 +21,11 @@ nav item {
 }
 
 img {
+    height: 300px;
+    background: #aaa;
+}
+
+portrait {
     height: 200px;
     background: #aaa;
 }
